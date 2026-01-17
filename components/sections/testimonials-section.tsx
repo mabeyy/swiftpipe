@@ -84,9 +84,8 @@ const TestimonialsComponent = ({ testimonials }: TestimonialsComponentProps) => 
                     <Rating
                       readOnly
                       variant='yellow'
-                      size={22}
                       value={testimonial.rating}
-                      precision={0.5}
+                      size={18}
                     />
 
                     <p className='text-sm leading-relaxed'>

@@ -13,7 +13,7 @@ import {
     InputGroupAddon,
     InputGroupInput,
 } from "@/components/ui/map/input-group"
-import { Spinner } from "@/components/ui/spinner"
+import { Spinner } from "@/components/ui/map/spinner"
 import type { BBox, Feature, FeatureCollection, Point } from "geojson"
 import { MapPinIcon, SearchIcon } from "lucide-react"
 import * as React from "react"

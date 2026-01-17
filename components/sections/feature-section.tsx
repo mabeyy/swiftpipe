@@ -30,7 +30,7 @@ const Features = ({ featuresList }: { featuresList: Features }) => {
             <Card
               key={index}
               className={cn(
-                "shadow-none transition-colors duration-300",
+                "group shadow-none transition-colors duration-300",
                 features.cardBorderColor
               )}
             >
@@ -43,7 +43,13 @@ const Features = ({ featuresList }: { featuresList: Features }) => {
                 >
                   <AvatarFallback
                     className={cn(
-                      "rounded-md [&>svg]:size-6 transition-transform duration-300 ease-out group-hover:scale-140",
+                      `
+                      rounded-md
+                      [&>svg]:size-6
+                      [&>svg]:transition-transform
+                      group-hover:[&>svg]:scale-125
+                      group-hover:[&>svg]:animate-[wiggle_1.0s_ease-in-out_infinite]
+                      `,
                       features.avatarBgColor
                     )}
                   >
