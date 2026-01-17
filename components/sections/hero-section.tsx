@@ -75,7 +75,6 @@ export default function HeroSection() {
       <HeroHeader />
 
       <main className="overflow-hidden">
-        {/* Decorative background blobs */}
         <div
           aria-hidden
           className="absolute inset-0 isolate hidden opacity-65 contain-strict lg:block"
@@ -100,11 +99,10 @@ export default function HeroSection() {
                 width={3276}
                 height={4095}
                 priority
+                unoptimized
                 />
             </AnimatedGroup>
 
-
-            {/* Radial fade overlay */}
             <div
               aria-hidden
                   className="absolute inset-0 -z-10 [background:radial-gradient(125%_125%_at_50%_100%,transparent_0%,var(--color-background)_75%)]"
@@ -145,7 +143,6 @@ export default function HeroSection() {
                   24/7 Emergency • Licensed • Affordable
                 </TextEffect>
 
-                {/* CTA Buttons */}
                 <AnimatedGroup
                   variants={buttonGroupVariants}
                   className="mt-12 flex flex-col items-center justify-center gap-2 md:flex-row"

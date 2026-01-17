@@ -58,7 +58,6 @@ const ContactUs = ({ contactInfo }: { contactInfo: ContactInfo }) => {
                 inset-0
                 z-10
                 opacity-[0.03]
-                [background-image:url('/noise.png')]
               "
             />
 
