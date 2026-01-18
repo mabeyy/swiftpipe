@@ -30,7 +30,7 @@ const getInitials = (name: string) =>
 
 const TestimonialsComponent = ({ testimonials }: TestimonialsComponentProps) => {
   return (
-    <section>
+    <section id="testimonials" className="scroll-mt-100">
       <Carousel
         className='mx-auto flex max-w-7xl gap-12 px-4 max-sm:flex-col sm:items-center sm:gap-16 sm:px-6 lg:gap-24 lg:px-8'
         opts={{ align: 'start', slidesToScroll: 1 }}

@@ -15,7 +15,7 @@ type Features = {
 
 const Features = ({ featuresList }: { featuresList: Features }) => {
   return (
-    <section>
+    <section id="services" className="scroll-mt-60">
       <div className='mx-auto max-w-7xl px-4 sm:px-6 lg:px-8'>
         {/* Header */}
         <div className='mb-12 space-y-4 sm:mb-16 lg:mb-24'>

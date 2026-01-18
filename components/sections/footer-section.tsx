@@ -51,7 +51,7 @@ export default function FooterSection() {
                     <li key={item}>
                       <Link
                         href="#"
-                        className="hover:text-white transition-colors"
+                        className="hover:text-black transition-colors"
                       >
                         {item}
                       </Link>

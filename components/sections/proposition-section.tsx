@@ -4,7 +4,7 @@ import Image from "next/image"
 
 export default function PropositionSection({ images, }: { images: StaticImageData[]}) {
   return (
-    <section    >
+    <section id="about" className="scroll-mt-50">
       <div className="mx-auto max-w-6xl space-y-12 px-6">
 
         {/* Section Header */}

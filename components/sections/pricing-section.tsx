@@ -19,7 +19,7 @@ type PricingPlan = {
 
 const PricingSection = ({ pricingData }: { pricingData: PricingPlan }) => {
   return (
-    <section>
+    <section id="pricing" className="scroll-mt-50">
       <div className="mx-auto max-w-7xl space-y-12 px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center space-y-4">

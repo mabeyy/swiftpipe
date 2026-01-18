@@ -12,7 +12,7 @@ type ContactInfo = {
 
 const ContactUs = ({ contactInfo }: { contactInfo: ContactInfo }) => {
   return (
-    <section className="bg-muted">
+    <section id="contact" className="bg-muted scroll-mt-50">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="mx-auto mb-5 max-w-5xl text-center space-y-4">
